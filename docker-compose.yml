@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  ubuntu:
+    image: ubuntu
+    privileged: true
+    cap_add:
+      - ALL
+  alpine:
+    image: alpine
+    privileged: true
+    devices:
+      - /dev/mem:/dev/mem
+    cap_add:
+      - ALL
+  centos:
+    image: centos
+    privileged: true
+    devices:
+      - /dev/mem:/dev/mem
+    cap_add:
+      - ALL

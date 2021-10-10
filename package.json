@@ -1,0 +1,11 @@
+{
+  "name": "os",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:xalvaine/os-lab1.git",
+  "author": "xalvaine <xalvaine@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.4.1"
+  }
+}
